@@ -8,7 +8,7 @@ $mensagem = "ERRO: Valores inválidos!!!";
     $area = $base * $altura/2;
     $mensagem = "<p> base=>" . $_GET["base"] . "</p>" .
                 "<p> altura=>" . $_GET["altura"] . "</p>" .
-                "O valor do perímetro é " .$area;
+                "O valor do perímetro é " .$area . "!";
 }
 ?>
 
